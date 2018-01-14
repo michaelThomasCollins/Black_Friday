@@ -1,0 +1,12 @@
+Cloning Project from Online Repo
+Go to github: https://github.com/michaelThomasCollins/Black_Friday
+Get Clone link: https://github.com/michaelThomasCollins/Black_Friday.git
+Next steps must be done in this order!
+1. Go into Unity
+2. Create new project (Named black friday, original settings)
+3. Go to New Project location and close Unity (in git bash)
+4. git init
+5. git remote add origin https://github.com/michaelThomasCollins/Black_Friday.git
+6. Delete current ProjectSettings/ folder automatically created by Unity
+7. git pull origin master
+Project should now be a git repo
